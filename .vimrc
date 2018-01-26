@@ -34,8 +34,9 @@ set showcmd "display typing command
 set whichwrap=b,s,h,l,<,>,~,[,]
 set showmatch " display corresponding parenthness
 set matchtime=1
-set pastetoggle=<S-p> " Ctrl + p switches paste mode
+set pastetoggle=<C-a> " Ctrl + p switches paste mode
 set incsearch " incremental search
+set backspace=indent,eol,start " enable backspace
 source $VIMRUNTIME/macros/matchit.vim " extend '%'
 """"""""""""""""""""""""""""""
 
@@ -49,7 +50,7 @@ inoremap <C-l>  <right>
 
 " Normal mode key mapping
 noremap <S-h> ^   
-noremap <S-l> $     
+noremap <S-l> <S-4>     
 
 " Code Completion
 inoremap { {}<Left>
