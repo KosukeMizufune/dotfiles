@@ -1,6 +1,6 @@
 alias ls='ls -FG'
 alias ll='ls -alFG'
-alias env1="source ~/研究/code/env1/bin/activate"
+alias airport_env="source ~/.virtualenvs/airport/bin/activate"
 alias jupyter="jupyter notebook"
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
